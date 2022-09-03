@@ -1,0 +1,69 @@
+.hakkimda{
+    margin-top: 150px;
+    font-family: "Space Mono", Arial, serif ;
+    border: 0px solid black;
+    width: 75vw;
+    margin-left: 11.2vw;
+    margin-bottom: 50px;
+    background-color: #ededed;
+    box-shadow: 10px 10px rgb(193, 193, 193);
+    padding: 10px 10px 10px 20px;
+    
+}
+
+#aboutme{
+    font-size: 2.5vw;
+    line-height: 1.5;
+    color: #000;
+    font-family: "Space Mono", Arial, serif ;
+    font-weight:900;
+}
+
+#aciklama{
+    font-family: "Space Mono", Arial, serif;
+    font-weight: 400;
+    font-size: 1vw;
+    line-height: 1.7;
+    color: #4d4d4d;
+}
+
+.maraba{
+    color: black;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+#icons{
+    width: 5vw;
+    height: 5vw;
+}
+.col-md-2{
+    display: flexbox;
+}
+
+.iconyazi{
+    font-size: 0.9vw;
+    font-weight: 500;
+    font-weight: bold;
+    text-align: center;
+    width: 5vw;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+#yetenek{
+    font-weight: bold;
+    color: black;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.maraba{
+    margin-top: 60px;
+}
+
+#hakkimdagif{
+    margin-top: 35px;
+    width: 22vw;
+    height: 22vw;
+}

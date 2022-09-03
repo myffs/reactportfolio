@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+.main {
+    position: relative;
+    background-image: url(../photo/background.png);
+}
+
+#arkaplan {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.header-content {
+    position: absolute;
+    margin-top: 37vh;
+    margin-left: 10vw;
+    width: fit-content;
+    color: white;
+}
+
+.header-subtitle {
+    font-size: 3vw;
+    font-weight: bold;
+}
+
+.header-title {
+    font-weight: bold;
+    font-size: 6vw;
+}
+
+.yaziikonlar {
+    display: flex;
+    width: fit-content;
+    height: 80px;
+    align-items: center;
+
+}
+
+.header-mono {
+    margin-left: 2px;
+    font-size: 1.1vw;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.etiketler {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 35px;
+}
+
+.etiketler .ikonbir,
+.ikoniki,
+.ikonuc {
+    border: 1px solid wheat;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-width: 0px;
+
+}
+
+
+.etiketler .ikonbir,
+.ikoniki,
+.ikonuc {
+    color: wheat;
+    -webkit-transition: color 500ms;
+    transition: color 500ms;
+    -webkit-transition: padding 700ms;
+    transition: padding 700ms;
+    margin-bottom: 32px;
+    -webkit-transition: border 500ms;
+    transition: border 500ms;
+}
+
+.etiketler .ikonbir,
+.ikoniki {
+    margin-right: 15px;
+
+}
+
+.etiketler .ikonbir:hover {
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    border-width: 6px;
+}
+
+.etiketler .ikoniki:hover {
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    border-width: 6px;
+
+}
+
+.etiketler .ikonuc:hover {
+    color: rgb(255, 255, 255);
+    padding-bottom: 10px;
+    border-width: 5px;
+
+}
